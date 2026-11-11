@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rabbit LED Light & Men's Bar Necklace | অর্ডার করুন</title>
+<meta name="description" content="Rabbit LED Light এবং Men's Bar Necklace মাত্র ২০০ টাকায়। Cash on Delivery, Allover Bangladesh.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#fffdf7;
+    --ink:#0f172a;
+    --muted:#5b6478;
+    --card:#ffffff;
+    --accent:#f59e0b;
+    --accent-dark:#b45309;
+    --line:#ece6d8;
+    --ok:#15803d;
+    --danger:#dc2626;
+    --radius:18px;
+    --shadow:0 10px 30px rgba(15,23,42,.08);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;
+    font-family:'Hind Siliguri',system-ui,-apple-system,'Segoe UI',sans-serif;
+    background:var(--bg);
+    color:var(--ink);
+    line-height:1.7;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+  h1,h2,h3{line-height:1.35;margin:0 0 8px}
+  h2{font-size:clamp(22px,3.4vw,30px)}
+  p{margin:0 0 12px}
+  a{color:inherit}
+  .muted{color:var(--muted)}
+
+  /* ---------- Header ---------- */
+  header{
+    position:sticky;top:0;z-index:50;
+    background:rgba(255,253,247,.88);
+    backdrop-filter:blur(10px);
+    border-bottom:1px solid var(--line);
+  }
+  .nav{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:12px 0;flex-wrap:wrap}
+  .brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:18px}
+  .brand .dot{
+    width:34px;height:34px;border-radius:10px;display:grid;place-items:center;
+    background:linear-gradient(135deg,var(--accent),#fb923c);color:#fff;font-size:18px;
+    box-shadow:0 6px 16px rgba(245,158,11,.35);
+  }
+  .nav-links{display:flex;gap:6px;flex-wrap:wrap}
+  .nav-links a{
+    text-decoration:none;font-size:14px;font-weight:500;color:var(--muted);
+    padding:7px 12px;border-radius:999px;transition:.18s;
+  }
+  .nav-links a:hover{background:#fff4dd;color:var(--accent-dark)}
+
+  /* ---------- Buttons ---------- */
+  .btn{
+    display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    font-family:inherit;font-size:15px;font-weight:600;cursor:pointer;
+    padding:12px 20px;border-radius:12px;border:1px solid transparent;
+    text-decoration:none;transition:transform .12s, box-shadow .18s, background .18s;
+  }
+  .btn:active{transform:translateY(1px)}
+  .btn-primary{background:linear-gradient(135deg,var(--accent),#fb923c);color:#fff;box-shadow:0 8px 20px rgba(245,158,11,.35)}
+  .btn-primary:hover{box-shadow:0 12px 26px rgba(245,158,11,.45)}
+  .btn-dark{background:var(--ink);color:#fff}
+  .btn-dark:hover{background:#1e293b}
+  .btn-ghost{background:#fff;color:var(--ink);border-color:var(--line)}
+  .btn-ghost:hover{background:#fffaf0}
+  .btn-sm{padding:9px 14px;font-size:14px;border-radius:10px}
+
+  /* ---------- Hero ---------- */
+  .hero{padding:46px 0 30px}
+  .hero-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:center}
+  .pill{
+    display:inline-block;background:#fff4dd;color:var(--accent-dark);
+    font-size:13px;font-weight:600;padding:6px 14px;border-radius:999px;margin-bottom:14px;
+  }
+  .hero h1{font-size:clamp(27px,4.6vw,42px);letter-spacing:-.5px}
+  .hero h1 span{color:var(--accent-dark)}
+  .hero .lead{font-size:17px;color:var(--muted);max-width:46ch}
+  .hero-cta{display:flex;gap:10px;flex-wrap:wrap;margin:20px 0 16px}
+  .badges{display:flex;gap:8px;flex-wrap:wrap}
+  .badge{
+    font-size:13px;font-weight:500;background:#fff;border:1px solid var(--line);
+    padding:7px 13px;border-radius:999px;color:var(--muted);
+  }
+  .hero-art{
+    position:relative;border-radius:26px;padding:26px;
+    background:radial-gradient(circle at 30% 20%,#ffe9bd,#ffd88a 45%,#fbbf24);
+    box-shadow:var(--shadow);min-height:250px;
+    display:grid;place-items:center;gap:10px;text-align:center;
+  }
+  .hero-art .big{font-size:clamp(52px,10vw,86px);line-height:1;filter:drop-shadow(0 10px 14px rgba(180,83,9,.25))}
+  .hero-art .tag{
+    background:#fff;color:var(--accent-dark);font-weight:700;font-size:14px;
+    padding:8px 16px;border-radius:999px;box-shadow:0 6px 16px rgba(180,83,9,.18);
+  }
+
+  /* ---------- Section ---------- */
+  section{padding:36px 0}
+  .sec-head{text-align:center;margin-bottom:26px}
+  .sec-head p{color:var(--muted);max-width:56ch;margin:0 auto}
+
+  /* ---------- Products ---------- */
+  .products{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    box-shadow:var(--shadow);overflow:hidden;display:flex;flex-direction:column;
+  }
+  .thumb{
+    height:210px;display:grid;place-items:center;position:relative;
+    background:linear-gradient(135deg,#fff1cf,#ffe0a3);
+  }
+  .thumb.alt{background:linear-gradient(135deg,#e6f0ff,#cfe0ff)}
+  .thumb .emoji{font-size:76px;filter:drop-shadow(0 8px 12px rgba(15,23,42,.16))}
+  .thumb img{width:100%;height:100%;object-fit:cover}
+  .thumb .code{
+    position:absolute;top:12px;left:12px;background:rgba(255,255,255,.92);
+    font-size:12px;font-weight:700;color:var(--accent-dark);padding:5px 11px;border-radius:999px;
+  }
+  .p-body{padding:18px;display:flex;flex-direction:column;gap:6px;flex:1}
+  .p-body h3{font-size:19px}
+  .price{font-size:24px;font-weight:700;color:var(--accent-dark)}
+  .price small{font-size:13px;font-weight:500;color:var(--muted);margin-left:6px}
+  .p-body ul{margin:6px 0 12px;padding-left:0;list-style:none;font-size:14px;color:var(--muted)}
+  .p-body ul li{padding-left:20px;position:relative}
+  .p-body ul li::before{content:"✓";position:absolute;left:0;color:var(--ok);font-weight:700}
+  .p-body .btn{margin-top:auto;width:100%}
+
+  /* ---------- Features ---------- */
+  .features{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:16px}
+  .feat{background:#fff;border:1px solid var(--line);border-radius:16px;padding:18px}
+  .feat .ico{font-size:24px;display:block;margin-bottom:6px}
+  .feat h3{font-size:16px;margin-bottom:2px}
+  .feat p{font-size:14px;color:var(--muted);margin:0}
+
+  /* ---------- Delivery ---------- */
+  .delivery-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+  .dbox{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px;text-align:center}
+  .dbox .num{font-size:28px;font-weight:700;color:var(--accent-dark)}
+  .dbox .lbl{font-size:14px;color:var(--muted)}
+
+  /* ---------- Order Form ---------- */
+  .order-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:22px;align-items:start}
+  .panel{
+    background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+    padding:22px;box-shadow:var(--shadow);
+  }
+  .field{margin-bottom:14px}
+  .field label{display:block;font-size:14px;font-weight:600;margin-bottom:5px}
+  .field .hint{font-weight:400;font-size:12px;color:var(--muted)}
+  input[type=text],input[type=tel],textarea,select{
+    width:100%;font-family:inherit;font-size:15px;color:var(--ink);
+    padding:11px 13px;border:1px solid #ddd6c6;border-radius:11px;background:#fffdf8;
+    transition:border .15s, box-shadow .15s;
+  }
+  input:focus,textarea:focus,select:focus{
+    outline:none;border-color:var(--accent);box-shadow:0 0 0 3px rgba(245,158,11,.18);background:#fff;
+  }
+  textarea{min-height:78px;resize:vertical}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .qty-box{display:flex;align-items:center;gap:8px}
+  .qty-box button{
+    width:40px;height:42px;border-radius:11px;border:1px solid #ddd6c6;background:#fff;
+    font-size:19px;font-weight:700;color:var(--ink);cursor:pointer;font-family:inherit;
+  }
+  .qty-box button:hover{background:#fff4dd;border-color:var(--accent)}
+  .qty-box input{text-align:center}
+  .radios{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .radio{
+    display:flex;align-items:center;gap:8px;border:1px solid #ddd6c6;border-radius:11px;
+    padding:11px 13px;cursor:pointer;font-size:14px;background:#fffdf8;transition:.15s;
+  }
+  .radio:has(input:checked){border-color:var(--accent);background:#fff7e6;box-shadow:0 0 0 3px rgba(245,158,11,.12)}
+  .radio input{accent-color:var(--accent);width:16px;height:16px}
+  .radio span{font-weight:600}
+
+  .summary{background:#fffaf0;border:1px dashed #f0c987;border-radius:14px;padding:16px}
+  .summary h3{font-size:16px;margin-bottom:10px}
+  .srow{display:flex;justify-content:space-between;font-size:14.5px;padding:5px 0;color:var(--muted)}
+  .srow strong{color:var(--ink);font-weight:600}
+  .srow.total{border-top:1px solid #f0c987;margin-top:8px;padding-top:10px;font-size:17px;color:var(--ink);font-weight:700}
+  .srow.total strong{color:var(--accent-dark);font-size:19px}
+
+  .err{
+    display:none;background:#fee2e2;color:#991b1b;border:1px solid #fecaca;
+    border-radius:11px;padding:11px 14px;font-size:14px;margin-bottom:14px;
+  }
+  .err.show{display:block}
+
+  /* ---------- Result ---------- */
+  #result{display:none;margin-top:22px}
+  #result.show{display:block}
+  #orderText{
+    width:100%;min-height:190px;font-family:inherit;font-size:14px;line-height:1.8;
+    background:#f8fafc;border:1px solid var(--line);border-radius:12px;padding:14px;
+  }
+  .result-actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+  .ok-note{color:var(--ok);font-weight:600;font-size:14px;margin-bottom:10px}
+
+  /* ---------- FAQ ---------- */
+  .faq{max-width:760px;margin:0 auto}
+  details{
+    background:#fff;border:1px solid var(--line);border-radius:14px;
+    padding:14px 18px;margin-bottom:10px;
+  }
+  details[open]{border-color:#f0c987;background:#fffdf6}
+  summary{
+    cursor:pointer;font-weight:600;font-size:15.5px;list-style:none;
+    display:flex;justify-content:space-between;gap:12px;align-items:center;
+  }
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";font-size:20px;color:var(--accent-dark);font-weight:700}
+  details[open] summary::after{content:"–"}
+  details p{margin:10px 0 0;font-size:14.5px;color:var(--muted)}
+
+  /* ---------- Footer ---------- */
+  footer{background:#0f172a;color:#cbd5e1;padding:34px 0 26px;margin-top:20px}
+  .foot-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:22px}
+  footer h4{color:#fff;font-size:15px;margin:0 0 8px}
+  footer p,footer a{font-size:14px;color:#94a3b8;text-decoration:none}
+  footer a:hover{color:var(--accent)}
+  .foot-bottom{
+    border-top:1px solid #1e293b;margin-top:24px;padding-top:16px;
+    text-align:center;font-size:13px;color:#64748b;
+  }
+  .foot-links{display:flex;flex-direction:column;gap:6px}
+
+  /* ---------- Floating WhatsApp ---------- */
+  .float{
+    position:fixed;right:16px;bottom:16px;z-index:60;
+    display:flex;align-items:center;gap:9px;
+    background:#25D366;color:#fff;text-decoration:none;font-weight:600;font-size:14px;
+    padding:12px 18px;border-radius:999px;box-shadow:0 10px 26px rgba(37,211,102,.45);
+  }
+  .float:hover{background:#1eb457}
+
+  /* ---------- Toast ---------- */
+  #toast{
+    position:fixed;left:50%;bottom:26px;transform:translate(-50%,20px);
+    background:var(--ink);color:#fff;font-size:14px;padding:11px 20px;border-radius:999px;
+    opacity:0;pointer-events:none;transition:.25s;z-index:99;
+  }
+  #toast.show{opacity:1;transform:translate(-50%,0)}
+
+  /* ---------- Responsive ---------- */
+  @media(max-width:860px){
+    .hero-grid,.order-grid{grid-template-columns:1fr}
+    .hero-art{order:-1;min-height:190px}
+    .hero{padding:28px 0 16px}
+  }
+  @media(max-width:520px){
+    .row2,.radios{grid-template-columns:1fr}
+    .float span{display:none}
+    .float{padding:15px;font-size:20px}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="brand">
+      <span class="dot">🛍️</span>
+      <span>Rabbit Light &amp; Bar Necklace</span>
+    </div>
+    <nav class="nav-links">
+      <a href="#products">প্রোডাক্ট</a>
+      <a href="#delivery">ডেলিভারি</a>
+      <a href="#order">অর্ডার</a>
+      <a href="#faq">প্রশ্নোত্তর</a>
+    </nav>
+  </div>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="pill">✨ Cash on Delivery • Allover Bangladesh</span>
+      <h1>মাত্র <span>৳২০০</span> টাকায়<br>Rabbit LED Light ও Men's Bar Necklace</h1>
+      <p class="lead">পণ্য হাতে পেয়ে টাকা দিন। সারা বাংলাদেশে ডেলিভারি। দাম ফিক্সড — কোনো ছাড় নেই।</p>
+      <div class="hero-cta">
+        <a href="#order" class="btn btn-primary">🛒 এখনই অর্ডার করুন</a>
+        <a href="#products" class="btn btn-ghost">প্রোডাক্ট দেখুন</a>
+      </div>
+      <div class="badges">
+        <span class="badge">✅ ১০০% অরিজিনাল</span>
+        <span class="badge">💵 ক্যাশ অন ডেলিভারি</span>
+        <span class="badge">🚚 ঢাকায় ৭০৳</span>
+      </div>
+    </div>
+    <div class="hero-art">
+      <div class="big">🐰💡</div>
+      <div class="tag">প্রতিটি মাত্র ৳২০০</div>
+    </div>
+  </div>
+</div>
+
+<!-- PRODUCTS -->
+<section id="products">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>আমাদের প্রোডাক্ট</h2>
+      <p>দুটো প্রোডাক্টই একদম ফিক্সড প্রাইসে — ২০০ টাকা।</p>
+    </div>
+    <div class="products">
+
+      <!-- Product 1 -->
+      <article class="card">
+        <div class="thumb">
+          <span class="code">Rabbit</span>
+          <!-- চাইলে এই span মুছে দিন এবং নিচের লাইনটি দিন:
+               <img src="light.jpg" alt="Rabbit LED Light"> -->
+          <span class="emoji">🐰💡</span>
+        </div>
+        <div class="p-body">
+          <h3>Rabbit LED Light</h3>
+          <div class="price">৳২০০ <small>প্রতিটি</small></div>
+          <ul>
+            <li>সুন্দর ও আকর্ষণীয় ডিজাইন</li>
+            <li>ডেকোরেশন / নাইট লাইট হিসেবে পারফেক্ট</li>
+            <li>স্টক সাপেক্ষে ডেলিভারি</li>
+          </ul>
+          <button class="btn btn-primary" data-order="light">অর্ডার করুন</button>
+        </div>
+      </article>
+
+      <!-- Product 2 -->
+      <article class="card">
+        <div class="thumb alt">
+          <span class="code">Necklace</span>
+          <!-- চাইলে এই span মুছে দিন এবং নিচের লাইনটি দিন:
+               <img src="necklace.jpg" alt="Men's Bar Necklace"> -->
+          <span class="emoji">📿</span>
+        </div>
+        <div class="p-body">
+          <h3>Men's Bar Necklace</h3>
+          <div class="price">৳২০০ <small>প্রতিটি</small></div>
+          <ul>
+            <li>ছেলেদের জন্য স্টাইলিশ বার নেকলেস</li>
+            <li>রেগুলার ব্যবহারের জন্য মানসম্মত</li>
+            <li>গিফট হিসেবেও চমৎকার</li>
+          </ul>
+          <button class="btn btn-primary" data-order="necklace">অর্ডার করুন</button>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section>
+  <div class="wrap features">
+    <div class="feat">
+      <span class="ico">💵</span>
+      <h3>ক্যাশ অন ডেলিভারি</h3>
+      <p>পণ্য হাতে পাওয়ার পর টাকা পরিশোধ করবেন।</p>
+    </div>
+    <div class="feat">
+      <span class="ico">🚚</span>
+      <h3>সারা দেশে ডেলিভারি</h3>
+      <p>Inside Dhaka ৭০৳, Outside Dhaka ১৩০৳।</p>
+    </div>
+    <div class="feat">
+      <span class="ico">🏷️</span>
+      <h3>ফিক্সড প্রাইস</h3>
+      <p>দাম ২০০ টাকা — কোনো ছাড় নেই।</p>
+    </div>
+    <div class="feat">
+      <span class="ico">📞</span>
+      <h3>সাপোর্ট</h3>
+      <p>অর্ডার সংক্রান্ত যেকোনো প্রশ্নে যোগাযোগ করুন।</p>
+    </div>
+  </div>
+</section>
+
+<!-- DELIVERY -->
+<section id="delivery">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>ডেলিভারি চার্জ</h2>
+      <p>আমরা সারা বাংলাদেশে ডেলিভারি করি। পেমেন্ট সম্পূর্ণ ক্যাশ অন ডেলিভারি।</p>
+    </div>
+    <div class="delivery-grid">
+      <div class="dbox">
+        <div class="num">৳৭০</div>
+        <div class="lbl">Inside Dhaka</div>
+      </div>
+      <div class="dbox">
+        <div class="num">৳১৩০</div>
+        <div class="lbl">Outside Dhaka</div>
+      </div>
+      <div class="dbox">
+        <div class="num">COD</div>
+        <div class="lbl">Cash on Delivery</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ORDER -->
+<section id="order" style="background:#fffaf0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>অর্ডার করুন</h2>
+      <p>ফর্মটি পূরণ করুন — নিচে আপনার অর্ডারের ডিটেইলস তৈরি হবে, সেটি কপি করে আমাদের পাঠান।</p>
+    </div>
+
+    <div class="order-grid">
+      <!-- FORM -->
+      <div class="panel">
+        <form id="orderForm" novalidate>
+
+          <div id="formErr" class="err"></div>
+
+          <div class="field">
+            <label for="product">পণ্য</label>
+            <select id="product">
+              <option value="light">Rabbit LED Light — ৳২০০</option>
+              <option value="necklace">Men's Bar Necklace — ৳২০০</option>
+            </select>
+          </div>
+
+          <div class="row2">
+            <div class="field">
+              <label for="qty">পরিমাণ</label>
+              <div class="qty-box">
+                <button type="button" id="minus" aria-label="কমান">−</button>
+                <input type="text" id="qty" value="1" inputmode="numeric">
+                <button type="button" id="plus" aria-label="বাড়ান">+</button>
+              </div>
+            </div>
+            <div class="field">
+              <label for="cname">আপনার নাম</label>
+              <input type="text" id="cname" placeholder="যেমন: রফিকুল ইসলাম">
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="phone">মোবাইল নম্বর <span class="hint">(১১ ডিজিট)</span></label>
+            <input type="tel" id="phone" placeholder="01XXXXXXXXX" inputmode="numeric">
+          </div>
+
+          <div class="field">
+            <label for="address">সম্পূর্ণ ঠিকানা</label>
+            <textarea id="address" placeholder="বাসা/রোড, থানা, জেলা"></textarea>
+          </div>
+
+          <div class="field">
+            <label>ডেলিভারি এরিয়া</label>
+            <div class="radios">
+              <label class="radio">
+                <input type="radio" name="area" value="inside" checked>
+                <span>Inside Dhaka — ৭০৳</span>
+              </label>
+              <label class="radio">
+                <input type="radio" name="area" value="outside">
+                <span>Outside Dhaka — ১৩০৳</span>
+              </label>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width:100%">অর্ডার কনফার্ম করুন</button>
+        </form>
+      </div>
+
+      <!-- SUMMARY -->
+      <div class="panel">
+        <h3 style="font-size:17px">🧾 অর্ডার সামারি</h3>
+        <div class="summary" style="margin-top:10px">
+          <div class="srow"><span>পণ্য</span><strong id="sProduct">Rabbit LED Light</strong></div>
+          <div class="srow"><span>একক দাম</span><strong>৳২০০</strong></div>
+          <div class="srow"><span>পরিমাণ</span><strong id="sQty">১ পিস</strong></div>
+          <div class="srow"><span>সাবটোটাল</span><strong id="sSub">৳২০০</strong></div>
+          <div class="srow"><span>ডেলিভারি</span><strong id="sDel">৳৭০</strong></div>
+          <div class="srow total"><span>সর্বমোট</span><strong id="sTotal">৳২৭০</strong></div>
+        </div>
+        <p style="font-size:13.5px;color:var(--muted);margin-top:12px">
+          💵 পেমেন্ট: শুধুমাত্র Cash on Delivery<br>
+          ⚠️ ওয়ারেন্টি প্রযোজ্য নয়<br>
+          🚫 কোনো ছাড় নেই, দাম ফিক্সড
+        </p>
+      </div>
+    </div>
+
+    <!-- RESULT -->
+    <div id="result" class="panel">
+      <p class="ok-note">✅ আপনার অর্ডার তৈরি হয়েছে। নিচের বাটন থেকে কপি করে আমাদের পাঠান।</p>
+      <textarea id="orderText" readonly></textarea>
+      <div class="result-actions">
+        <button class="btn btn-dark btn-sm" id="copyBtn">📋 কপি করুন</button>
+        <a class="btn btn-primary btn-sm" id="waBtn" target="_blank" rel="noopener">💬 WhatsApp-এ পাঠান</a>
+        <a class="btn btn-ghost btn-sm" id="msgBtn" target="_blank" rel="noopener">📨 Messenger-এ পাঠান</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap">
+    <div class="sec-head">
+      <h2>সাধারণ প্রশ্নোত্তর</h2>
+    </div>
+    <div class="faq">
+      <details open>
+        <summary>দাম কত?</summary>
+        <p>Rabbit LED Light এবং Men's Bar Necklace — দুটোর দামই ২০০ টাকা করে। দাম ফিক্সড, কোনো ছাড় নেই।</p>
+      </details>
+      <details>
+        <summary>ডেলিভারি চার্জ কত?</summary>
+        <p>Inside Dhaka ৭০ টাকা, Outside Dhaka ১৩০ টাকা। আমরা সারা বাংলাদেশে ডেলিভারি করি।</p>
+      </details>
+      <details>
+        <summary>পেমেন্ট কীভাবে করব?</summary>
+        <p>সম্পূর্ণ Cash on Delivery (COD)। পণ্য হাতে পাওয়ার পর টাকা দিন।</p>
+      </details>
+      <details>
+        <summary>ওয়ারেন্টি আছে কি?</summary>
+        <p>না, এই পণ্যে কোনো ওয়ারেন্টি নেই।</p>
+      </details>
+      <details>
+        <summary>ডেলিভারি কতদিনে পাব?</summary>
+        <p>ডেলিভারি সময় এলাকা অনুযায়ী পরিবর্তিত হয়। অর্ডার কনফার্ম করার সময় আমরা সময় কনফার্ম করে জানিয়ে দেব।</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap foot-grid">
+    <div>
+      <h4>Rabbit Light &amp; Bar Necklace</h4>
+      <p>সাশ্রয়ী দামে মানসম্মত প্রোডাক্ট। Cash on Delivery, Allover Bangladesh।</p>
+    </div>
+    <div>
+      <h4>দ্রুত লিংক</h4>
+      <div class="foot-links">
+        <a href="#products">প্রোডাক্ট</a>
+        <a href="#delivery">ডেলিভারি চার্জ</a>
+        <a href="#order">অর্ডার ফর্ম</a>
+        <a href="#faq">প্রশ্নোত্তর</a>
+      </div>
+    </div>
+    <div>
+      <h4>যোগাযোগ</h4>
+      <div class="foot-links">
+        <a id="footWa" href="#">📞 WhatsApp</a>
+        <a id="footMsg" href="#" target="_blank" rel="noopener">📨 Facebook Messenger</a>
+        <a href="#order">🛒 অর্ডার করুন</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    © <span id="year"></span> Rabbit Light &amp; Bar Necklace — সর্বস্বত্ব সংরক্ষিত
+  </div>
+</footer>
+
+<a class="float" id="floatWa" href="#" target="_blank" rel="noopener">💬 <span>WhatsApp</span></a>
+<div id="toast"></div>
+
+<script>
+/* =========================================================
+   ⚙️ CONFIG — এই অংশটুকু আপনার তথ্য দিয়ে বদলে নিন
+   ========================================================= */
+const CONFIG = {
+  // WhatsApp নম্বর — দেশের কোড সহ, + বা স্পেস ছাড়া
+  // উদাহরণ: 01712345678 হলে লিখুন "8801712345678"
+  whatsapp: "8801700000000",
+
+  // আপনার Facebook Page-এর Messenger লিংক
+  // উদাহরণ: https://m.me/yourpagename
+  messenger: "https://m.me/yourpage",
+
+  // ফোন (দেখানোর জন্য)
+  phone: "+8801700000000",
+
+  // দাম (টাকা)
+  prices: { light: 200, necklace: 200 },
+
+  // ডেলিভারি চার্জ
+  delivery: { inside: 70, outside: 130 },
+
+  // পণ্যের নাম
+  names: {
+    light: "Rabbit LED Light",
+    necklace: "Men's Bar Necklace"
+  }
+};
+/* ========================================================= */
+
+const F = document.getElementById('orderForm');
+const $ = id => document.getElementById(id);
+const toastEl = $('toast');
+
+function showToast(msg){
+  toastEl.textContent = msg;
+  toastEl.classList.add('show');
+  clearTimeout(showToast._t);
+  showToast._t = setTimeout(() => toastEl.classList.remove('show'), 2000);
+}
+
+function getQty(){
+  let n = parseInt($('qty').value, 10);
+  if (isNaN(n) || n < 1) n = 1;
+  if (n > 99) n = 99;
+  return n;
+}
+
+function getArea(){
+  const el = F.querySelector('input[name="area"]:checked');
+  return el ? el.value : 'inside';
+}
+
+function calc(){
+  const product = $('product').value;
+  const qty = getQty();
+  const area = getArea();
+  const unit = CONFIG.prices[product];
+  const sub = unit * qty;
+  const del = CONFIG.delivery[area];
+  return { product, qty, area, unit, sub, del, total: sub + del };
+}
+
+function taka(n){ return '৳' + n; }
+
+function updateSummary(){
+  const c = calc();
+  $('sProduct').textContent = CONFIG.names[c.product];
+  $('sQty').textContent = c.qty + ' পিস';
+  $('sSub').textContent = taka(c.sub);
+  $('sDel').textContent = taka(c.del);
+  $('sTotal').textContent = taka(c.total);
+  if ($('qty').value !== String(c.qty)) $('qty').value = c.qty;
+}
+
+/* ---------- qty buttons ---------- */
+$('plus').addEventListener('click', () => { $('qty').value = Math.min(99, getQty() + 1); updateSummary(); });
+$('minus').addEventListener('click', () => { $('qty').value = Math.max(1, getQty() - 1); updateSummary(); });
+$('qty').addEventListener('input', () => {
+  $('qty').value = $('qty').value.replace(/[^\d]/g, '').slice(0, 2);
+  updateSummary();
+});
+
+/* ---------- change listeners ---------- */
+$('product').addEventListener('change', updateSummary);
+F.querySelectorAll('input[name="area"]').forEach(r => r.addEventListener('change', updateSummary));
+
+/* ---------- Product order buttons ---------- */
+document.querySelectorAll('[data-order]').forEach(btn => {
+  btn.addEventListener('click', () => {
+    $('product').value = btn.dataset.order;
+    updateSummary();
+    $('order').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+});
+
+/* ---------- validation + submit ---------- */
+function showError(msg){
+  const box = $('formErr');
+  box.innerHTML = msg;
+  box.classList.add('show');
+  box.scrollIntoView({ behavior: 'smooth', block: 'center' });
+}
+function hideError(){ $('formErr').classList.remove('show'); }
+
+F.addEventListener('submit', (e) => {
+  e.preventDefault();
+  hideError();
+
+  const name = $('cname').value.trim();
+  const phoneRaw = $('phone').value.trim();
+  const phone = phoneRaw.replace(/[\s\-()]/g, '');
+  const address = $('address').value.trim();
+  const c = calc();
+
+  const errors = [];
+  if (name.length < 3) errors.push('• আপনার নাম লিখুন (কমপক্ষে ৩ অক্ষর)।');
+  if (!/^01[3-9]\d{8}$/.test(phone)) errors.push('• সঠিক ১১ ডিজিটের মোবাইল নম্বর দিন (যেমন: 01712345678)।');
+  if (address.length < 10) errors.push('• সম্পূর্ণ ঠিকানা লিখুন (বাসা/রোড, থানা, জেলা)।');
+
+  if (errors.length) {
+    showError('<strong>একটু ঠিক করে দিন:</strong><br>' + errors.join('<br>'));
+    return;
+  }
+
+  const areaLabel = c.area === 'inside' ? 'Inside Dhaka' : 'Outside Dhaka';
+
+  const text =
+`🛒 নতুন অর্ডার — Rabbit Light & Bar Necklace
+
+পণ্য: ${CONFIG.names[c.product]}
+পরিমাণ: ${c.qty} পিস
+একক দাম: ${c.unit} টাকা
+সাবটোটাল: ${c.sub} টাকা
+ডেলিভারি: ${areaLabel} — ${c.del} টাকা
+সর্বমোট: ${c.total} টাকা
+
+নাম: ${name}
+মোবাইল: ${phone}
+ঠিকানা: ${address}
+
+পেমেন্ট: Cash on Delivery (COD)
+ওয়ারেন্টি: নেই`;
+
+  $('orderText').value = text;
+
+  const waUrl = 'https://wa.me/' + CONFIG.whatsapp + '?text=' + encodeURIComponent(text);
+  $('waBtn').href = waUrl;
+
+  $('msgBtn').href = CONFIG.messenger;
+
+  $('result').classList.add('show');
+  $('result').scrollIntoView({ behavior: 'smooth', block: 'center' });
+  showToast('অর্ডার তৈরি হয়েছে ✅');
+});
+
+/* ---------- copy ---------- */
+$('copyBtn').addEventListener('click', async () => {
+  const ta = $('orderText');
+  try {
+    await navigator.clipboard.writeText(ta.value);
+    showToast('কপি হয়েছে ✅');
+  } catch {
+    ta.select();
+    document.execCommand('copy');
+    showToast('কপি হয়েছে ✅');
+  }
+});
+
+/* ---------- links ---------- */
+$('floatWa').href = 'https://wa.me/' + CONFIG.whatsapp;
+$('footWa').href = 'https://wa.me/' + CONFIG.whatsapp;
+$('footMsg').href = CONFIG.messenger;
+$('year').textContent = new Date().getFullYear();
+
+/* ---------- init ---------- */
+updateSummary();
+</script>
+</body>
+</html>
